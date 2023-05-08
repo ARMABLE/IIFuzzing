@@ -192,7 +192,7 @@ pip install -e .
 
 ## Running
 
-##### Training  Sequence Representation Model:
+#### Training  Sequence Representation Model:
 
 ```shell
 # RL_CARLA for example
@@ -200,7 +200,7 @@ cd UnsupervisedScalableRepresentationLearningTimeSeries
 python uea.py --dataset RL_CARLA --path ./data/TestData --save_path ./models --hyper default_hyperparameters.json [--cuda --gpu 0]
 ```
 
-##### Training Cluster Model:
+#### Training Cluster Model:
 
 ```shell
 # RL_CARLA for example
@@ -216,7 +216,9 @@ python cluster.py
 
 
 
-##### InSkipFuzz Test:
+#### InSkipFuzz Test:
+
+**Note**: For RL_CARLA and IL_CARLA, first run `./carla_RL_IAs/CarlaUE4.sh -fps=10 -benchmark -carla-port=3000` to start the CARLA environment.
 
 ```python
 # RL CARLA
@@ -254,3 +256,4 @@ The trend of Crash and Test number of InSkipFuzz and baseline(MDPFuzz):
 - https://github.com/openai/maddpg
 - https://github.com/openai/multiagent-particle-envs
 - https://github.com/Qi-Pang/MDPFuzz
+- https://github.com/White-Link/UnsupervisedScalableRepresentationLearningTimeSeries
