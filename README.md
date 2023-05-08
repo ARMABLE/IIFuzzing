@@ -208,7 +208,11 @@ cd UnsupervisedScalableRepresentationLearningTimeSeries/cuz_utils
 python cluster.py
 ```
 
-**Note**: We have provided the above models
+**Note**: 
+
+(1) We have provided the above models
+
+(2) Data used for training sequence representation model and cluster model can be downloaded on the following location: [Google Drive](https://drive.google.com/drive/folders/1To9UupwZ-57z5pyqfzOSxbyuXOPc7D2i?usp=share_link )
 
 
 
