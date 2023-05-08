@@ -212,7 +212,7 @@ python cluster.py
 
 (1) We have provided the above models
 
-(2) Data used for training sequence representation model and cluster model can be downloaded on the following location: [Google Drive](https://drive.google.com/drive/folders/1To9UupwZ-57z5pyqfzOSxbyuXOPc7D2i?usp=share_link )
+(2) Data used for training sequence representation model and cluster model can be downloaded on the following location: [Google Drive](https://drive.google.com/drive/folders/1To9UupwZ-57z5pyqfzOSxbyuXOPc7D2i?usp=share_link ). After the download is complete, you can place it in the following directory: ``\UnsupervisedScalableRepresentationLearningTimeSeries\data\TestData``.
 
 
 
@@ -242,7 +242,7 @@ python enjoy.py --alg tqc --env BipedalWalkerHardcore-v3 --folder rl-trained-age
 
 The trend of Crash and Test number of InSkipFuzz and baseline(MDPFuzz):
 
-![Trend graph results](images/trend.png)
+![image](https://github.com/ARMABLE/InSkipFuzz/blob/main/images/trend.png?raw=true)
 
 
 
