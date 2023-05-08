@@ -192,7 +192,7 @@ pip install -e .
 
 ## Running
 
-##### Traing Sequence Representation Model:
+##### Training  Sequence Representation Model:
 
 ```shell
 # RL_CARLA for example
@@ -200,7 +200,7 @@ cd UnsupervisedScalableRepresentationLearningTimeSeries
 python uea.py --dataset RL_CARLA --path ./data/TestData --save_path ./models --hyper default_hyperparameters.json [--cuda --gpu 0]
 ```
 
-##### Traing Cluster Model:
+##### Training Cluster Model:
 
 ```shell
 # RL_CARLA for example
