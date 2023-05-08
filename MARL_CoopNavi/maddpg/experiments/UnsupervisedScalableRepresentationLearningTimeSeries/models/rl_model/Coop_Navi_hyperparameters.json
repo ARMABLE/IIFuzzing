@@ -1,0 +1,1 @@
+{"compared_length": Infinity, "lr": 0.001, "reduced_size": 320, "batch_size": 64, "nb_steps": 1500, "kernel_size": 3, "nb_random_samples": 10, "in_channels": 24, "negative_penalty": 1, "cuda": true, "early_stopping": null, "penalty": null, "depth": 10, "gpu": 0, "channels": 40, "out_channels": 160}
