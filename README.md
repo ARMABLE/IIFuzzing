@@ -1,4 +1,4 @@
-# InSkipFuzz
+# IIFuzzing
 
 This repository contains data and code for the paper **Accelerating Fuzzing Testing with In-process Skip for Sequential Decision-making Model**.
 
@@ -6,9 +6,9 @@ This repository contains data and code for the paper **Accelerating Fuzzing Test
 
 ## Overview
 
-We propose an in-process skipping fuzzing framework InSkipFuzz to effectively and efficiently test sequential decision-making models in blackbox settings.
+We propose IIFuzzing (Fuzz Testing with Inert Intervention) to effectively and efficiently test sequential decision-making models in blackbox settings.
 
-We make experimental evaluation of effectiveness and efficiency of InSkipFuzz  with **four models** involving **three simulation environments** with promising performance, outperforming the SOTA baseline.
+We make experimental evaluation of effectiveness and efficiency of IIFuzzing with **four models** involving **three simulation environments** with promising performance, outperforming the SOTA baseline.
 
 
 
@@ -216,7 +216,7 @@ python cluster.py
 
 
 
-#### InSkipFuzz Test:
+#### IIFuzzing Test:
 
 **Note**: For RL_CARLA and IL_CARLA, first run `./carla_RL_IAs/CarlaUE4.sh -fps=10 -benchmark -carla-port=3000` to start the CARLA environment.
 
@@ -242,7 +242,7 @@ python enjoy.py --alg tqc --env BipedalWalkerHardcore-v3 --folder rl-trained-age
 
 ## Trend Graph Results
 
-The trend of Crash and Test number of InSkipFuzz and baseline(MDPFuzz):
+The trend of Crash and Test number of IIFuzzing and baseline(MDPFuzz):
 
 ![image](https://github.com/ARMABLE/InSkipFuzz/blob/main/images/trend.png?raw=true)
 
