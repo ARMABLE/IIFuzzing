@@ -4,7 +4,6 @@ from sklearn.cluster import MeanShift
 from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import roc_auc_score
 import matplotlib.pyplot as plt
-
 def preprocess():
     with open('./results/tsne_crash.pkl', 'rb') as handle:
         crashes = np.load(handle)

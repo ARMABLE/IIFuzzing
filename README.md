@@ -244,7 +244,7 @@ python enjoy.py --alg tqc --env BipedalWalkerHardcore-v3 --folder rl-trained-age
 
 The trend of Crash and Test number of IIFuzzing and baseline(MDPFuzz):
 
-![image](https://github.com/ARMABLE/InSkipFuzz/blob/main/images/trend.png?raw=true)
+![image](https://github.com/ARMABLE/InSkipFuzz/blob/main/images/fuzz_trend.png?raw=true)
 
 
 
