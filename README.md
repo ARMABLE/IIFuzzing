@@ -1,6 +1,6 @@
 # IIFuzzing
 
-This repository contains data and code for the paper **Accelerating Fuzzing Testing with In-process Skip for Sequential Decision-making Model**.
+This repository contains data and code for the paper **Fuzz testing for sequential decision-making model with intervening inert sequences**.
 
 
 
